@@ -1,4 +1,4 @@
-,# Dhis2
+ # Dhis2
 Installation
 
 ## installation for windows
@@ -15,18 +15,21 @@ the following operations are: My Computer (Right Click) → Properties → Advan
 ### create database
 DHIS is an open source software platform for reporting, analysis and dissemination of data for all health programs. Therefore we need to have the database to save, compute and analyze the data
 Therefore, we recommend to install PostgreSQL(http://www.postgresql.org/download/windows/). 
-The recommend version is `Postgresql9.6`.
+The recommend version is `Postgresql 9.6`.
 ### configure dhis2 file
 After DHIS2 version 2.22 the configuration file is called dhis.conf and resides in the DHIS2 home folder given in the environmental variables. Create a folder `C:\DHIS2`. (https://drive.google.com/file/d/0B28a90FiUzeTWkllSlQ2a1U2bEE/view) to download the standard `dhis.conf` file and save it in the above folder. Make sure the configuration files details reflect the details of the database created. 
+### Install Tomcat 8 "32-bit/64-bit Windows Service Installer"
+`it is VERY important that you install only the service installer - not the 32 bit or 64bit windows zip`<br>
+The WAR file requires you to install a Java servlet container, this is why we choose to use tomcat,because tomcat is a server that can support java. Tomcat is the component of a web server that interacts with java servlets and map a URL to a particular servlet and ensuring that the URL requester has the correct access-right, usually including an IP address and port number of server.
+(http://tomcat.apache.org/download-80.cgi) website is to download Tomcat.
+The recommend version is Version 8.5.15.
 ### Download Dhis2
 Download the latest DHIS2 war file (https://www.dhis2.org/downloads) and copy it in to `webapps` folder 
 of the Tomcat installation (i.e. C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps).
 The lastest version 2.26 is our recommendation.
-### Install Tomcat 8 "32-bit/64-bit Windows Service Installer"
-`it is VERY important that you install only the service installer - not the 32 bit or 64bit windows zip`
-The WAR file requires you to install a Java servlet container, this is why we choose to use tomcat,because tomcat is a server that can support java. Tomcat is the component of a web server that interacts with java servlets and map a URL to a particular servlet and ensuring that the URL requester has the correct access-right, usually including an IP address and port number of server.
-(http://tomcat.apache.org/download-80.cgi) website is to download Tomcat.
-The recommend version is Version 8.5.15.
+### run Tomcat with dhis2
+Run “Tomcat8.exe” in the `bin` folder of Tomcat installation (C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin) to deploy the war file. Once the deployment is complete (a message saying “server starts in ...ms” will be displayed in the command panel), you can access http://localhost:8080/dhis/ and then enter the username as admin password as district.
+
 
 
 
