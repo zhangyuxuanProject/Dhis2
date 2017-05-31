@@ -21,8 +21,8 @@ The recommend version is `Postgresql 9.6`.
 `Open “PgAdmin III”`
 Right click "localhost" and click "connect". Right click again on "localhost" and create new login role “dhis” with the password “dhis”. Go to "Role Privileges" and tick all privileges.
 ![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newrole.jpg)<br>
-Then right click databases and create a new database "dhis2" set Owner as "dhis"
-![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newdb.jpg)
+Then right click databases and create a new database "dhis2" set Owner as "dhis"<br>
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newdb.jpg)<br>
 ### configure dhis2 file
 After DHIS2 version 2.22 the configuration file is called dhis.conf and resides in the DHIS2 home folder given in the environmental variables. Create a folder `C:\DHIS2`. (https://drive.google.com/file/d/0B28a90FiUzeTWkllSlQ2a1U2bEE/view) to download the standard `dhis.conf` file and save it in the above folder. Make sure the configuration files details reflect the details of the database created. 
 ### Install Tomcat 8 "32-bit/64-bit Windows Service Installer"
