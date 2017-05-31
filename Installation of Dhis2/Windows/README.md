@@ -12,6 +12,7 @@ the following operations are: My Computer (Right Click) → Properties → Advan
 `Variable Name: JAVA_OPTS`<br>
 `Value: -Xms512m -Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=768m'`<br>
 `Make sure `Path` variable include the path to JDK’s “bin” folders address (i.e. C:\Program Files (x86)\Java\jre1.8.0_101)`
+https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/envvariable.PNG
 ### create database
 DHIS is an open source software platform for reporting, analysis and dissemination of data for all health programs. Therefore we need to have the database to save, compute and analyze the data
 Therefore, we recommend to install PostgreSQL(http://www.postgresql.org/download/windows/). 
