@@ -38,7 +38,10 @@ Download the latest DHIS2 war file (https://www.dhis2.org/downloads) and copy it
 of the Tomcat installation (i.e. C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps).
 The lastest version 2.26 is our recommendation.
 ### run Tomcat with dhis2
-Run “Tomcat8.exe” in the `bin` folder of Tomcat installation (C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin) to deploy the war file. Once the deployment is complete (a message saying “server starts in ...ms” will be displayed in the command panel), you can access http://localhost:8080/dhis/ and then enter the username as admin password as district.
+Run “Tomcat8.exe” in the `bin` folder of Tomcat installation (C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin) to deploy the war file. Once the deployment is complete (a message saying “server starts in ...ms” will be displayed in the command panel)<br>
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/TomcatExe.png)<br>
+Then you can access http://localhost:8080/dhis/ and then enter the username as admin password as district.<br>
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/dhisResult.png)<br>
 
 
 
