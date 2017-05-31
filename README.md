@@ -1,4 +1,4 @@
- # installation of Dhis2
+ # Installation of Dhis2
 Installation
 
 ## installation for windows
