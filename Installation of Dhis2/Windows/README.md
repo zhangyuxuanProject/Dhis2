@@ -20,7 +20,7 @@ Therefore, we recommend to install PostgreSQL(http://www.postgresql.org/download
 The recommend version is `Postgresql 9.6`.
 `Open “PgAdmin III”`
 Right click "localhost" and click "connect". Right click again on "localhost" and create new login role “dhis” with the password “dhis”. Go to "Role Privileges" and tick all privileges.
-![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newrole.jpg)
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newrole.jpg)<br>
 Then right click databases and create a new database "dhis2" set Owner as "dhis"
 ![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newdb.jpg)
 ### configure dhis2 file
