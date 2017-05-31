@@ -1,4 +1,4 @@
-# Installation of Dhis2
+<b# Installation of Dhis2
 Installation
 
 ## installation for windows
@@ -7,7 +7,7 @@ we need to install `JDK or JRE`(https://www.java.com/en/download/) because Dhis2
 ### set environment variables
 The `environment variables` help the system find where the configuration files(java, dhis2) are
 the following operations are: My Computer (Right Click) → Properties → Advanced system settings → Environmental Variables and then   Under “System Variables” click `New` to add following:
-![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/envvariable.PNG)
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/envvariable.PNG)<br>
 `Variable Name: DHIS2_HOME`<br>
 `Value: C:\DHIS2`<br>
 `Variable Name: JAVA_OPTS`<br>
