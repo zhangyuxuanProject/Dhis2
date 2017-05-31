@@ -3,8 +3,9 @@ Installation
 
 ## installation for windows
 ### JAVA installation
-we need to install `JDK or JRE`(https://www.java.com/en/download/) because Dhis2 is a web application based on Java and dhis.war is a JAR file used to distribute a collection of JavaServer Pages, Java Servlets, XML files and other resources that together constitute a web application.
-You can type in command line `java -version` to see if java environment is installed in your computer
+we need to install `JDK or JRE`(https://www.java.com/en/download/) because Dhis2 is a web application based on Java and dhis.war is a JAR file used to distribute a collection of JavaServer Pages, Java Servlets, XML files and other resources that together constitute a web application.<br>
+You can type in command line `java -version` to see if java environment is installed in your computer<br>
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/java.png)<br>
 ### set environment variables
 The `environment variables` help the system find where the configuration files(java, dhis2) are
 the following operations are: My Computer (Right Click) → Properties → Advanced system settings → Environmental Variables and then   Under “System Variables” click `New` to add following:
@@ -25,7 +26,8 @@ Right click "localhost" and click "connect". Right click again on "localhost" a
 Then right click databases and create a new database "dhis2" set Owner as "dhis"<br>
 ![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/newdb.jpg)<br>
 ### configure dhis2 file
-After DHIS2 version 2.22 the configuration file is called dhis.conf and resides in the DHIS2 home folder given in the environmental variables. Create a folder `C:\DHIS2`. (https://drive.google.com/file/d/0B28a90FiUzeTWkllSlQ2a1U2bEE/view) to download the standard `dhis.conf` file and save it in the above folder. Make sure the configuration files details reflect the details of the database created. 
+After DHIS2 version 2.22 the configuration file is called dhis.conf and resides in the DHIS2 home folder given in the environmental variables. Create a folder `C:\DHIS2`. (https://drive.google.com/file/d/0B28a90FiUzeTWkllSlQ2a1U2bEE/view) to download the standard `dhis.conf` file and save it in the above folder. Make sure the configuration files details reflect the details of the database created.<br>
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/dhisConf.png)<br>
 ### Install Tomcat 8 "32-bit/64-bit Windows Service Installer"
 `it is VERY important that you install only the service installer - not the 32 bit or 64bit windows zip`<br>
 The WAR file requires you to install a Java servlet container, this is why we choose to use tomcat,because tomcat is a server that can support java. Tomcat is the component of a web server that interacts with java servlets and map a URL to a particular servlet and ensuring that the URL requester has the correct access-right, usually including an IP address and port number of server.
