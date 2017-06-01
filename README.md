@@ -5,7 +5,7 @@ DHIS is an open source software platform for reporting, analysis and disseminati
 ## Client:
 Client sends requests to server and receives responses from server. On a PC client, we can access to server using browser or similar applications that support HTTP protocol.
 On a mobile client such as an android phone, you can access to server using some components that support HTTP protocol. Besides, there are many types of requests. For example, if you are collecting raw data in rural area, your mobile client will send a request sending data to DHIS database. You can also send request and receive the map of processed data in DHIS directly or send request to process data with methods you define in backend and receive the outcome of data in frontend. Because java is not very suitable for data processing, you may use Jpython or other programming language combined with Java when processing data in DHIS.<br>
-
+![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/Architecture.png)<br>
 
 # Description of Dhis2
 
