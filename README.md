@@ -13,13 +13,11 @@ The diagram below shows the component and functionality on server side and clien
 ![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/Architecture.png)<br>
 
 
-## Installation of Dhis2
-Installation
 
-## installation for windows
+## Installation Guide for Windows
 You can find this method in Dhis2/Installation of Dhis2/windows.
 
-## installation for Linux
+## Installation Guide for Linux
 You can find this method in Dhis2/Installation of Dhis2/Linux.
 
 ## Reference Webpages
