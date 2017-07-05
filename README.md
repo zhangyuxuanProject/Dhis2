@@ -8,7 +8,8 @@ As we mentioned, DHIS2 is a java-based web application installed on server. Ther
 To install DHIS2 on Tomcat server, we need Ddhis.war file, a JAR file used to distribute a collection of JavaServer Pages, Java Servlets, XML files and other resources that together constitute a web application. Again, this is why we choose to use tomcat, because tomcat is a server that can support java.<br>
 ## Component -- Client:
 There are several kinds of service requesters(clients) in our model. In a PC client, we can access to server using browser or similar applications that support HTTP protocol. In a mobile client such as an android phone, we can access to server using some android components that support HTTP protocol. Besides, there are many types of requests. For example, if you are collecting raw data in rural area, your mobile client will request to send data and store in DHIS database. You can also send requests for viewing the maps and figures the server already has. In another case, you request to process data in server with specific algorithms such as machine learning approach and receive the outcome in client. Because java is not very suitable for data processing, you may use Jpython or other programming language combined with Java when processing data in DHIS.<br>
-The diagram below shows the component and functionality on server side and client side respectively and the brief communication model between server and client.
+<br>
+The diagram below shows the component and functionality on server side and client side respectively and the communication model between server and client through request and response.
 ![image](https://github.com/zhangyuxuanProject/Dhis2/blob/master/Installation%20of%20Dhis2/Windows/Images/Architecture.png)<br>
 
 
@@ -22,5 +23,5 @@ You can find this method in Dhis2/Installation of Dhis2/windows.
 You can find this method in Dhis2/Installation of Dhis2/Linux.
 
 ## Reference Webpages
-[1] DHIS2 User Manual.Vers.2.27.Apr 2017 <http:www.dhis2.org>
+[1] DHIS2 User Manual.Vers.2.27.Apr 2017 <http:www.dhis2.org><br>
 [2] Client and server role <https://en.wikipedia.org/wiki/Client–server_model#Client_and_server_communication>
